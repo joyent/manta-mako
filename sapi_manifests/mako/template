@@ -13,7 +13,7 @@ thread_pool mpu threads=8;
 {{/MAKO_THREAD_POOL_SIZE}}
 
 
-error_log /var/log/mako-error.log info;
+error_log /var/log/mako-error.log notice;
 
 events {
 {{#MAKO_WORKER_CONNECTIONS}}
