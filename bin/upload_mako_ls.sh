@@ -6,14 +6,14 @@
 #
 
 #
-# Copyright 2019 Joyent, Inc.
+# Copyright 2020 Joyent, Inc.
 #
 
 export PATH=/opt/local/bin:$PATH
 
 PID=$$
 PID_FILE=/tmp/upload_mako_ls.pid
-OUT_DIR=/var/tmp/mako_rollup
+OUT_DIR=/manta/mako_rollup
 START_TIME=`date -u +"%Y-%m-%dT%H:%M:%SZ"`
 
 function fatal {
